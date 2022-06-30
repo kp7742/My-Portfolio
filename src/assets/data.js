@@ -248,7 +248,7 @@ const data = {
       ],
       link: {
         visit: "https://kuldippatel.dev/",
-        github: "https://github.com/kp7742/MyPortfolio",
+        github: "https://github.com/kp7742/My-Portfolio",
       }
     },
     {
