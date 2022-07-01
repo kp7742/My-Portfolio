@@ -1,5 +1,5 @@
 import MyLogo from "./images/me.jpg";
-import Profile from "./images/profile.png";
+import Profile from "./images/profile.jpg";
 import Chatbot from "./images/chatbot.png";
 import Website from "./images/website.png";
 import AIKYAM from "./images/aikyam.png";
@@ -60,6 +60,14 @@ const data = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
       },
       {
+        name: "HTML",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      },
+      {
+        name: "CSS3",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      },
+      {
         name: "JavaScript",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
@@ -82,20 +90,8 @@ const data = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
       },
       {
-        name: "HTML",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      },
-      {
-        name: "CSS3",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      },
-      {
         name: "JQuery",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg",
-      },
-      {
-        name: "Bootstrap",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
       },
       {
         name: "TailwindCSS",
@@ -106,24 +102,12 @@ const data = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
-        name: "NodeJS",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-      },
-      {
         name: "Flask",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
       },
       {
-        name: "Apache",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg",
-      },
-      {
         name: "MySQL",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-      },
-      {
-        name: "SQLite",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg",
       },
       {
         name: "MongoDB",
@@ -148,28 +132,12 @@ const data = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg",
       },
       {
-        name: "Git",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-      },
-      {
         name: "Github",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
       },
       {
-        name: "Composer",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg",
-      },
-      {
-        name: "NPM",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
-      },
-      {
         name: "Jupyter",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg",
-      },
-      {
-        name: "Kaggle",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg",
       },
       {
         name: "Android Studio",
@@ -182,10 +150,6 @@ const data = {
       {
         name: "AWS",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
-      },
-      {
-        name: "DigitalOcean",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg",
       },
       {
         name: "Docker",
@@ -248,7 +212,7 @@ const data = {
       ],
       link: {
         visit: "https://kuldippatel.dev/",
-        github: "https://github.com/kp7742/My-Portfolio",
+        github: "https://github.com/kp7742/MyPortfolio",
       }
     },
     {
@@ -423,17 +387,17 @@ const data = {
         github: "https://github.com/kp7742/SathChalein",
       }
     },
-    {
-      name: "GRIEVANCE REDRESSAL SYSTEM",
-      description: "GRIEVANCE REDRESSAL SYSTEM for College Campus",
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-      technologies: [
-        "PHP",
-      ],
-      link: {
-        github: "https://github.com/kp7742/GRS",
-      }
-    },
+    // {
+    //   name: "GRIEVANCE REDRESSAL SYSTEM",
+    //   description: "GRIEVANCE REDRESSAL SYSTEM for College Campus",
+    //   image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    //   technologies: [
+    //     "PHP",
+    //   ],
+    //   link: {
+    //     github: "https://github.com/kp7742/GRS",
+    //   }
+    // },
     {
       name: "Know Your Campus",
       description: "Know Your Campus is an Android App to Know About Your College and Download Stuffs like Timetables, Assignments etc. Directly. Made During DotSlash Hackathon",

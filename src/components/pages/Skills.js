@@ -13,7 +13,7 @@ function Skills() {
                 Languages
             </h2>
 
-            <Marquee className="mt-5" speed={20} pauseOnHover={true} gradient={false}>
+            <Marquee className="mt-5" speed={30} pauseOnHover={true} gradient={false}>
                 {data.skills.langs.map((lang) => {
                     return (
                         <div className="flex flex-col w-32 h-32 items-center justify-center bg-white rounded-lg shadow-lg ml-6">
@@ -34,7 +34,7 @@ function Skills() {
                 Technologies
             </h2>
 
-            <Marquee className="mt-5" speed={40} pauseOnHover={true} gradient={false}>
+            <Marquee className="mt-5" speed={20} pauseOnHover={true} gradient={false}>
                 {data.skills.technologies.map((technologie) => {
                     return (
                         <div className="flex flex-col w-32 h-32 items-center justify-center bg-white rounded-lg shadow-lg ml-6">
@@ -55,7 +55,7 @@ function Skills() {
                 Tools
             </h2>
 
-            <Marquee className="mt-5" speed={30} pauseOnHover={true} gradient={false}>
+            <Marquee className="mt-5" speed={25} pauseOnHover={true} gradient={false}>
                 {data.skills.tools.map((tool) => {
                     return (
                         <div className="flex flex-col w-32 h-32 items-center justify-center bg-white rounded-lg shadow-lg ml-6">
