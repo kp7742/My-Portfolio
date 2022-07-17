@@ -203,6 +203,18 @@ const data = {
   ],
   projects: [
     {
+      name: "LeetCode",
+      description: "My LeetCode Problems & Solution List",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      technologies: [
+        "Python",
+        "Java",
+      ],
+      link: {
+        github: "https://github.com/kp7742/LeetCode",
+      }
+    },
+    {
       name: "My portfolio website",
       description: "⚡ My portfolio, I built using React and TailwindCSS",
       image: Website,
@@ -387,17 +399,17 @@ const data = {
         github: "https://github.com/kp7742/SathChalein",
       }
     },
-    // {
-    //   name: "GRIEVANCE REDRESSAL SYSTEM",
-    //   description: "GRIEVANCE REDRESSAL SYSTEM for College Campus",
-    //   image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-    //   technologies: [
-    //     "PHP",
-    //   ],
-    //   link: {
-    //     github: "https://github.com/kp7742/GRS",
-    //   }
-    // },
+    {
+      name: "GRIEVANCE REDRESSAL SYSTEM",
+      description: "GRIEVANCE REDRESSAL SYSTEM for College Campus",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      technologies: [
+        "PHP",
+      ],
+      link: {
+        github: "https://github.com/kp7742/GRS",
+      }
+    },
     {
       name: "Know Your Campus",
       description: "Know Your Campus is an Android App to Know About Your College and Download Stuffs like Timetables, Assignments etc. Directly. Made During DotSlash Hackathon",
