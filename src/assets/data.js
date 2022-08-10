@@ -159,7 +159,7 @@ const data = {
   },
   experiences: [
     {
-      date: "Jan 2023 - Preset",
+      date: "Jan 2023 - Present",
       title: "Master of Science in Data Analytics",
       subtitle: "SJSU, CA, USA",
       description: "Database Systems for Analytics, Big Data Tech and App, Machine Learning",
@@ -167,7 +167,7 @@ const data = {
     },
     {
       date: "Sep 2019",
-      title: "Lead Developer of Visvesmruti 2019",
+      title: "Lead Backend Developer of Visvesmruti 2019",
       subtitle: "RNGPIT, Gujarat, India",
       description: "Developed a Techfest management system including an Android App to handle participation and a Web Interface to Monitor stats",
       isworkcard: true,
@@ -183,14 +183,14 @@ const data = {
       date: "Jan 2019 - Aug 2020",
       title: "Developer Student Club Community Lead of DSC RNGPIT",
       subtitle: "RNGPIT, Gujarat, India",
-      description: "Served as lead of the Club, Helped peers to learn and connect, Organised various workshops and seminar to spread knowledge",
+      description: "Served as a lead of the Club, Helped peers to learn and connect, Organized various workshops and seminars to spread knowledge",
       isworkcard: true,
     },
     {
       date: "Sep 2018",
       title: "Lead Android Developer of Visvesmruti 2018",
       subtitle: "RNGPIT, Gujarat, India",
-      description: "Developed an android app to showcase Techfest information to the visiters and participants",
+      description: "Developed an android app to showcase Techfest information to the visitors and participants",
       isworkcard: true,
     },
     {
@@ -242,7 +242,7 @@ const data = {
     },
     {
       name: "Touch Simulation",
-      description: "Touch Simulation is program made in Golang to simulate Touch Input in android devices using Virtual Display with UInput interface of kernel",
+      description: "Touch Simulation is program made in Golang to simulate Touch Input in a android devices using Virtual Display with UInput interface of kernel",
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
       technologies: [
         "Golang",
