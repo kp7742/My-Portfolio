@@ -55,7 +55,7 @@ function About() {
 
           <div className="relative mt-20 rounded-xl md:mt-0 w-80 h-96">
             <img
-              className="w-80 h-96 border-2 border-black rounded-xl"
+              className="w-96 h-96 border-2 border-black rounded-xl object-cover"
               src={data.profile.src}
               alt={data.profile.alt}
             />
