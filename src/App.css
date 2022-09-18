@@ -1,8 +1,19 @@
 body {
+  cursor: url(https://cdn.custom-cursor.com/db/5408/32/regent-st-blue-color-cursor.png),
+    default !important;
   margin: 0;
   padding: 0;
   background: #040b18;
   color: white;
   max-width: 100%;
   overflow-x: hidden;
+}
+a {
+  cursor: url(https://cdn.custom-cursor.com/db/5407/32/regent-st-blue-color-pointer.png),
+    pointer !important;
+}
+
+img {
+  cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Black_cursor.png),
+    default !important;
 }
