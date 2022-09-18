@@ -58,7 +58,7 @@ export default function Navbars() {
               <div className="flex justify-evenly">
                 <div className="flex-shrink-0 flex items-center">
                   <span className="text-2xl px-3 block lg:hidden h-8 w-auto">
-                    Kuldip Patel
+                    Techno Aayush
                   </span>
                 </div>
                 <div className="hidden sm:block sm:ml-6">

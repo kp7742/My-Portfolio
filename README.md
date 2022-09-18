@@ -1,10 +1,10 @@
 # My Portfolio
     ⚡ My portfolio, I built using React and TailwindCSS
 
-My open source, simple and one-page portfolio site based on react made with clearly defined and modular components which can be easily modify on your use-case.
+This is open source, simple and one-page portfolio site based on react made with clearly defined and modular components which can be easily modify on your use-case.
 
 ## Live demo
-Check out the live demo here 👉️ [kuldippatel.dev](https://kuldippatel.dev/)
+Check out the live demo here 👉️ [technoaayush.xyz](https://technoaayush.xyz/)
 
 ![Demo Image](./demo.png)
 
