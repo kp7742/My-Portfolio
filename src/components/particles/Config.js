@@ -1,7 +1,7 @@
 export const MultiColor = {
     particles: {
       number: {
-        value: 100,
+        value: 70,
         density: {
           enable: true,
           area: 800
@@ -9,11 +9,21 @@ export const MultiColor = {
       },
       color: {
         value: [
-          "#BD10E0",
-          "#B8E986",
-          "#50E3C2",
-          "#FFD300",
-          "#E86363"
+          getRandomColor(),
+          getRandomColor(),
+          getRandomColor(),
+          getRandomColor(),
+          getRandomColor(),
+          getRandomColor(),
+          getRandomColor(),
+          getRandomColor(),
+          getRandomColor(),
+          getRandomColor(),
+          getRandomColor(),
+          getRandomColor(),
+          getRandomColor(),
+          getRandomColor(),
+          getRandomColor()
         ]
       },
       shape: {
@@ -24,7 +34,7 @@ export const MultiColor = {
         }
       },
       opacity: {
-        value: 0.5211089197812949,
+        value: 0.8,
         random: false,
         animation: {
           enable: true,
@@ -44,10 +54,10 @@ export const MultiColor = {
         }
       },
       lineLinked: {
-        enable: false,
-        distance: 150,
-        color: "#c8c8c8",
-        opacity: 0.4,
+        enable: true,
+        distance: 50,
+        color:getRandomColor(),
+        opacity: 0.5,
         width: 1
       },
       move: {
@@ -107,6 +117,13 @@ export const MultiColor = {
     },
     detectRetina: true
 };
+
+function getRandomColor() {
+  let color = "#";
+  for (let i = 0; i < 3; i++)
+    color += ("0" + Math.floor(((1 + Math.random()) * Math.pow(16, 2)) / 2).toString(16)).slice(-2);
+  return color;
+}
 
 export const MultiSnow = {
     backgroundMode: {
