@@ -1,13 +1,8 @@
 import MyLogo from "./images/logo.gif";
 import Profile from "./images/profile.jfif";
-import Chatbot from "./images/chatbot.png";
-import Website from "./images/website.png";
-import AIKYAM from "./images/aikyam.png";
-import VSManage from "./images/vsmanage.png";
-import Penguin from "./images/penguin.png";
-import WARespond from "./images/waresponder.png";
-import VS2018 from "./images/vs2018.png";
-import KYC from "./images/kyc.png";
+import Deliyummy from "./images/Deliyummy.jpg";
+import Snake from "./images/snake.gif";
+import Animeflix from "./images/animeflix.gif";
 import Resume from "./Resume.pdf";
 
 const data = {
@@ -129,6 +124,10 @@ const data = {
         icon: "https://icon-icons.com/downloadimage.php?id=190319&root=3053/PNG/512/&file=burp_suite_macos_bigsur_icon_190319.png",
       },
       {
+        name: "Canva",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg",
+      },
+      {
         name: "After Effect",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg",
       },
@@ -136,35 +135,27 @@ const data = {
   },
   experiences: [
     {
-      date: "Jan 2023 - Present",
-      title: "Master of Science in Data Analytics",
-      subtitle: "SJSU, CA, USA",
+      date: "Apr 2022 - Present",
+      title: "Web Development",
+      subtitle: "Sheryians Coding School, Bhopal, India",
       description:
-        "Database Systems for Analytics, Big Data Tech and App, Machine Learning",
+        "Here I am Learning full stack web Development with HTML, CSS, JS, NodeJS, React & Much More.",
       isworkcard: false,
     },
     {
-      date: "Sep 2019",
-      title: "Lead Backend Developer of Visvesmruti 2019",
-      subtitle: "RNGPIT, Gujarat, India",
+      date: "Nov 2020 - Present",
+      title: "Bachelor of Technology in Cyber Security",
+      subtitle: "OCT, Bhopal, India",
       description:
-        "Developed a Techfest management system including an Android App to handle participation and a Web Interface to Monitor stats",
-      isworkcard: true,
-    },
-    {
-      date: "May 2019 - Jul 2019",
-      title: "Software Trainee Intern",
-      subtitle: "D-Link India Limited, Mumbai, India",
-      description:
-        "Made a Chatbot platform to provide assistance to D-Link resellers",
-      isworkcard: true,
+        "C, OOPM(C++), Data Structure, Digital System, Cryptography, Technical Communication, Linear Algebra, Python, DBMS, OS, Computer Network, Cyber Security, IOT, Network Security, Design and Analysis of Algorithms OS Internals for Security Support",
+      isworkcard: false,
     },
     {
       date: "Mar 2020 - Apr 2021",
       title: "Freelance Android Developer",
       subtitle: "Bhopal, India",
       description:
-        "As games' security continues to improve, I quickly learned new skills and applied them to increase efficiency and productivity in order to identify new flaws in my clients' games. Participating in ongoing growth by making suggestions and participating in problem-solving activities to help my partners",
+        "During the Covid Pandemic, I didn't waste time and quickly learned a new skill and began this journey, meeting many new people from this field, one of whom was GB. When we met, he was only in 10th grade but was incredibly smart for his age, and he inspired me that age is not a limiter and that we can achieve anything.",
       isworkcard: true,
     },
 
@@ -187,25 +178,66 @@ const data = {
   ],
   projects: [
     {
-      name: "Touch Simulation",
-      description:
-        "Touch Simulation is program made in Golang to simulate Touch Input in a android devices using Virtual Display with UInput interface of kernel",
+      name: "TD ColorDesigner",
+      description: "RGB Colour Slider With Matrial Look",
       image:
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-      technologies: ["Golang", "Android"],
+      technologies: ["Java", "Android"],
       link: {
-        github: "https://github.com/kp7742/TouchSimulation",
+        github: "https://github.com/aayushchouhan24/TD_ColorDesigner",
       },
     },
     {
-      name: "Token Based Authentication",
+      name: "Snake Game",
       description:
-        "Token Based Authentication System is Secure Alternative Implementation of JWT(JSON Web Token).",
+        "Old Snake Game With Python This was my 12th Class Final Project",
+      image: Snake,
+      technologies: ["Python", "Pygame"],
+      link: {
+        github: "https://github.com/aayushchouhan24/Snake-Game",
+      },
+    },
+    {
+      name: "ClashOfClans_Clone_Prank",
+      description: "RGB Colour Slider With Matrial Look",
+      image:
+        "https://midiaresearch.com/storage/uploads/blog/images/2016/06/Supercell.png",
+      technologies: ["Java", "Android"],
+      link: {
+        github: "https://github.com/aayushchouhan24/ClashOfClans_Clone_Prank",
+      },
+    },
+    {
+      name: "Deliyummy",
+      description:
+        "Food Ordeing App With Firebase as Backend with All Necessary Features",
+      image: Deliyummy,
+      technologies: ["Java", "Android", "Firebase"],
+      link: {
+        github: "https://github.com/aayushchouhan24/Deliyummy",
+      },
+    },
+    {
+      name: "Auth/FirebaseOptionsBuilder",
+      description:
+        "This is firebase integration with only java and simple Auth App",
       image:
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-      technologies: ["Java", "Android", "PHP"],
+      technologies: ["Java", "Android", "Firebase"],
       link: {
-        github: "https://github.com/kp7742/TOBA",
+        github:
+          "https://github.com/aayushchouhan24/Auth_And_FirebaseOptionsBuilder",
+      },
+    },
+    {
+      name: "AnimeFlix",
+      description:
+        "This is AnimeFlix a Anime wallpapers Saver",
+      image:Animeflix,
+      technologies: ["Html", "CSS", "JS","Serpapi"],
+      link: {
+        github:
+          "https://github.com/aayushchouhan24/AnimeFlix",
       },
     },
   ],
