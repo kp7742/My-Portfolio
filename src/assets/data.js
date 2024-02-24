@@ -14,8 +14,7 @@ import Resume from "./Resume.pdf";
 const data = {
   name: "Kuldip Patel",
   texts: [
-    'Student & Full Stack Developer',
-    'Pursuing MS in Data Analytics',
+    'CSE Graduate & Full Stack Developer',
     '❤️ Programming and Reverse engineering'
   ],
   logo: {
@@ -27,11 +26,11 @@ const data = {
     alt: "Kuldip Patel"
   },
   resume: Resume,
-  description: "MS Data Analytics Student @ SJSU | Ex Lead of Developer Students Club RNGPIT | Full Stack Developer | Cyber Security Enthusiast",
+  description: "CSE Graduate | Ex Lead of Developer Students Club RNGPIT | Full Stack Developer | Cyber Security Enthusiast",
   social: {
-    email: "contact@kuldippatel.dev",
+    email: "patel.kuldip91@gmail.com",
     github: "https://github.com/kp7742",
-    linkedin: "https://www.linkedin.com/in/kp7742",
+    linkedin: "https://www.linkedin.com/in/kuldippatel1",
     instagram: "https://www.instagram.com/iamkuldippatel",
     twitter: "https://twitter.com/kexecv",
     playstore: "https://play.google.com/store/apps/developer?id=Kuldip+Patel",
@@ -60,20 +59,8 @@ const data = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
       },
       {
-        name: "HTML",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      },
-      {
-        name: "CSS3",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      },
-      {
         name: "JavaScript",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-      },
-      {
-        name: "C#",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
       },
       {
         name: "Golang",
@@ -160,6 +147,13 @@ const data = {
   experiences: [
     {
       date: "Jan 2023 - Present",
+      title: "Freelance Developer",
+      subtitle: "Gujarat, India",
+      description: "Working on intresting project",
+      isworkcard: true,
+    },
+    {
+      date: "Jan 2022 - Jan 2023",
       title: "Master of Science in Data Analytics",
       subtitle: "SJSU, CA, USA",
       description: "Database Systems for Analytics, Big Data Tech and App, Machine Learning",
@@ -202,6 +196,17 @@ const data = {
     }
   ],
   projects: [
+    {
+      name: "Tiktok Scrapper Challenge",
+      description: "Solution of a coding challenge to scrap data from Tiktok",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      technologies: [
+        "Python",
+      ],
+      link: {
+        github: "https://github.com/kp7742/Tiktok-Scrapper-Challenge",
+      }
+    },
     {
       name: "LeetCode",
       description: "My LeetCode Problems & Solution List",
@@ -319,6 +324,7 @@ const data = {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
       technologies: [
         "PHP",
+        "JavaScript",
       ],
       link: {
         github: "https://github.com/kp7742/Visvesmruti2019-VSBackend",
