@@ -30,7 +30,7 @@ const data = {
   social: {
     email: "patel.kuldip91@gmail.com",
     github: "https://github.com/kp7742",
-    linkedin: "https://www.linkedin.com/in/kuldippatel1",
+    linkedin: "https://www.linkedin.com/in/kp7742",
     instagram: "https://www.instagram.com/iamkuldippatel",
     twitter: "https://twitter.com/kexecv",
     playstore: "https://play.google.com/store/apps/developer?id=Kuldip+Patel",
