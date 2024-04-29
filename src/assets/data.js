@@ -197,6 +197,28 @@ const data = {
   ],
   projects: [
     {
+      name: "LearnystDown",
+      description: "POC script to download content from Learnyst LMS",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      technologies: [
+        "Python",
+      ],
+      link: {
+        github: "https://github.com/kp7742/LearnystDown",
+      }
+    },
+    {
+      name: "JCineDown",
+      description: "Small utility scripts to download VOD from the JioCinema",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      technologies: [
+        "Python",
+      ],
+      link: {
+        github: "https://github.com/kp7742/JCineDown",
+      }
+    },
+    {
       name: "Tiktok Scrapper Challenge",
       description: "Solution of a coding challenge to scrap data from Tiktok",
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
@@ -205,6 +227,18 @@ const data = {
       ],
       link: {
         github: "https://github.com/kp7742/Tiktok-Scrapper-Challenge",
+      }
+    },
+    {
+      name: "RootOverlay",
+      description: "Draw on Canvas based Overlay using libSU's RootService",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      technologies: [
+        "Java",
+        "Android",
+      ],
+      link: {
+        github: "https://github.com/kp7742/RootOverlay",
       }
     },
     {
