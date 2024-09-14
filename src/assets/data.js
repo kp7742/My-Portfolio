@@ -197,17 +197,6 @@ const data = {
   ],
   projects: [
     {
-      name: "LearnystDown",
-      description: "POC script to download content from Learnyst LMS",
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-      technologies: [
-        "Python",
-      ],
-      link: {
-        github: "https://github.com/kp7742/LearnystDown",
-      }
-    },
-    {
       name: "JCineDown",
       description: "Small utility scripts to download VOD from the JioCinema",
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
