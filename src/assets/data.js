@@ -149,7 +149,7 @@ const data = {
       date: "Jan 2023 - Present",
       title: "Freelance Developer",
       subtitle: "Gujarat, India",
-      description: "Working on intresting project",
+      description: "Working on intresting projects",
       isworkcard: true,
     },
     {
@@ -197,11 +197,25 @@ const data = {
   ],
   projects: [
     {
+      name: "IDA Actions",
+      description: "A workflow for Github Actions to automatically analyse binaries using IDA",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      technologies: [
+        "Bash",
+        "Python",
+        "Github Actions"
+      ],
+      link: {
+        github: "https://github.com/kp7742/ida-actions",
+      }
+    },
+    {
       name: "JCineDown",
       description: "Small utility scripts to download VOD from the JioCinema",
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
       technologies: [
         "Python",
+        "Widevine"
       ],
       link: {
         github: "https://github.com/kp7742/JCineDown",
