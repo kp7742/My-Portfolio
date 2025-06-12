@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   publicDir: 'public',
   assetsInclude: ['**/*.md'],
+  base: '/',
   server: {
     port: 3000,
     open: true
