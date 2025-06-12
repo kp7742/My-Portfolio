@@ -5,9 +5,13 @@ import Footer from './components/Footer';
 import StarSphere from './components/StarSphere';
 
 // Lazy load components for better performance
-const Home = lazy(() => import('./pages/Home'));
-const Blog = lazy(() => import('./pages/Blog'));
-const BlogPost = lazy(() => import('./pages/BlogPost'));
+// const Home = lazy(() => import('./pages/Home'));
+// const Blog = lazy(() => import('./pages/Blog'));
+// const BlogPost = lazy(() => import('./pages/BlogPost'));
+
+import Home from './pages/Home';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 
 function App() {
   return (
