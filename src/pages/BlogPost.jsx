@@ -24,8 +24,7 @@ export default function BlogPost() {
         }
 
         // Load markdown content
-        const baseUrl = import.meta.env.PROD ? '' : '/';
-        const response = await fetch(`${baseUrl}content/${post.slug}.md`);
+        const response = await fetch(`/content/${post.slug}.md`);
         if (!response.ok) {
           throw new Error('Content not found');
         }
