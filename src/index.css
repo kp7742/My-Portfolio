@@ -1,3 +1,109 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gray-900 text-white;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600;
+}
+
+/* Typography styles for blog posts */
+.prose {
+  @apply text-gray-300;
+}
+
+.prose h1 {
+  @apply text-4xl font-bold mb-6 text-white;
+}
+
+.prose h2 {
+  @apply text-3xl font-bold mb-4 text-white mt-8;
+}
+
+.prose h3 {
+  @apply text-2xl font-bold mb-3 text-white mt-6;
+}
+
+.prose p {
+  @apply mb-4 leading-relaxed;
+}
+
+.prose a {
+  @apply text-blue-400 hover:text-blue-300 transition-colors;
+}
+
+.prose ul {
+  @apply list-disc list-inside mb-4;
+}
+
+.prose ol {
+  @apply list-decimal list-inside mb-4;
+}
+
+.prose li {
+  @apply mb-2;
+}
+
+.prose li > p {
+  @apply inline;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-blue-500 pl-4 italic my-4;
+}
+
+.prose code {
+  @apply bg-gray-800 px-2 py-1 rounded text-sm;
+}
+
+.prose pre {
+  @apply bg-gray-800 p-4 rounded-lg overflow-x-auto my-4;
+}
+
+.prose pre code {
+  @apply bg-transparent p-0;
+}
+
+@layer utilities {
+  .text-shadow-glow {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3),
+                 0 0 20px rgba(255, 255, 255, 0.2),
+                 0 0 30px rgba(255, 255, 255, 0.1);
+  }
+
+  .skill-card-glow {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.1),
+                0 0 30px rgba(59, 130, 246, 0.05);
+  }
+
+  .skill-card-glow:hover {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.2),
+                0 0 40px rgba(59, 130, 246, 0.1);
+  }
+}
