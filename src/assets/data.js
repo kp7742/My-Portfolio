@@ -15,6 +15,7 @@ export const personalInfo = {
   profileImage: MyLogo,
   resume: "/Resume.pdf",
   taglines: [
+    'Enthusiasm for LLMs',
     'Full Stack Developer',
     '❤️ Programming and Reverse engineering'
   ],
@@ -376,7 +377,7 @@ export const projects = [
   {
     title: "Token Based Authentication",
     description: "Token Based Authentication System is Secure Alternative Implementation of JWT(JSON Web Token).",
-    image: "https://placehold.co/600x400/transparent/FFF?text=TOBA",
+    image: "https://placehold.co/600x400/000000/FFF?text=TOBA",
     technologies: [
       "Java",
       "Android",
