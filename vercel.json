@@ -1,0 +1,23 @@
+{
+  "headers": [
+    {
+      "source": "/content/(.*)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/content/:path*",
+      "destination": "/content/:path*"
+    }
+  ]
+} 
