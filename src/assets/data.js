@@ -69,10 +69,6 @@ export const personalInfo = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
       },
       {
-        name: "JQuery",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg",
-      },
-      {
         name: "TailwindCSS",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
       },
@@ -99,6 +95,10 @@ export const personalInfo = {
       {
         name: "Pandas",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
+      },
+      {
+        name: "PyTorch",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
       },
     ],
     tools: [
@@ -138,7 +138,13 @@ export const personalInfo = {
   },
   experiences: [
     {
-      date: "Jan 2023 - Present",
+      date: "July 2025 - Present",
+      title: "Master of Technology in AI and Data Science",
+      subtitle: "NFSU(Gandhinagar), Gujarat, India",
+      description: "Machine Learning, Deep Learning, Cyber Security",
+    },
+    {
+      date: "Jan 2023 - Jun 2025",
       title: "Freelance Developer",
       subtitle: "Gujarat, India",
       description: "Working on intresting projects",
@@ -212,6 +218,19 @@ export const projects = [
     links: {
       visit: "https://kuldippatel.dev/",
       github: "https://github.com/kp7742/My-Portfolio",
+    }
+  },
+  {
+    title: "GPT-Trainer",
+    description: "Quick prototyping project for testing GPT variants",
+    image: "https://placehold.co/600x400/000000/FFF?text=GPT+Trainer",
+    technologies: [
+      "Python",
+      "Pytorch",
+      "Transformers"
+    ],
+    links: {
+      github: "https://github.com/kp7742/gpt-trainer",
     }
   },
   {
