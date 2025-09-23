@@ -4,6 +4,7 @@ import { SiHuggingface } from 'react-icons/si';
 import { TypeAnimation } from 'react-type-animation';
 import { personalInfo, projects, blogPosts } from '../assets/data';
 
+import { FaMediumM } from "react-icons/fa";
 import { FaFileArrowDown } from "react-icons/fa6";
 import { FiGithub, FiLinkedin, FiTwitter, FiInstagram, FiYoutube, FiMail } from 'react-icons/fi';
 
@@ -103,7 +104,7 @@ export default function Home() {
               Download Resume
             </a>
 
-            <div className="flex flex-wrap justify-center gap-6">
+            <div className="flex flex-wrap justify-center gap-5">
               <a
                 href={`mailto:${personalInfo.socialLinks.email}`}
                 target="_blank"
@@ -148,6 +149,18 @@ export default function Home() {
                 title="Twitter"
               >
                 <FiTwitter className="w-6 h-6" />
+              </a>
+            </div>
+
+            <div className="flex flex-wrap justify-center gap-5">
+              <a
+                href={personalInfo.socialLinks.medium}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="h-auto w-auto border-2 rounded-full p-2 text-gray-200 hover:bg-white hover:text-blue-500 transition-colors"
+                title="Medium"
+              >
+                <FaMediumM className="w-6 h-6" />
               </a>
               <a
                 href={personalInfo.socialLinks.huggingface}
