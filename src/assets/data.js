@@ -11,13 +11,13 @@ import KYC from "./images/kyc.png";
 
 export const personalInfo = {
   name: "Kuldip Patel",
-  bio: "Passionate developer with expertise in modern technologies. Building innovative solutions and creating engaging user experiences.",
+  bio: "Passionate researcher with expertise in modern technologies. Building innovative solutions and exploring brand new things.",
   profileImage: MyLogo,
   resume: "/Resume.pdf",
   taglines: [
-    'Enthusiasm for LLMs',
-    'Full Stack Developer',
-    '❤️ Programming and Reverse engineering'
+    'Interested in AI Research',
+    'Programming and Reverse engineering',
+    'Student of AI, Data Science and CyberSecurity',
   ],
   socialLinks: {
     email: "patel.kuldip91@gmail.com",
@@ -139,10 +139,16 @@ export const personalInfo = {
   },
   experiences: [
     {
-      date: "Jan 2023 - Present",
-      title: "Freelance Developer",
-      subtitle: "Gujarat, India",
+      date: "July 2025 - Present",
+      title: "Master of Technology in AI & Data Science (Specialization in Cyber Security)",
+      subtitle: "NFSU Gandhinagar, Gujarat, India",
       description: "Working on intresting projects",
+    },
+    {
+      date: "Jan 2023 - Jun 2025",
+      title: "Freelance Developer",
+      subtitle: "Surat, Gujarat, India",
+      description: "Built and maintained web application using PHP and React",
     },
     {
       date: "Jan 2022 - Jan 2023",
@@ -172,6 +178,33 @@ export const personalInfo = {
 };
 
 export const blogPosts = [
+  {
+    title: 'YALM V1: My Journey Training Small Language Models from Scratch',
+    slug: 'yalm-v1-my-journey-training-small-language-models-from-scratch',
+    excerpt: 'Exploring how I went from knowing nothing about LLMs to pretraining my own model series', 
+    date: 'Mar 31, 2026',
+    readTime: '7 min read',
+    tags: ['AI', 'LLM', 'GPT', 'Python'],
+    link: 'https://medium.com/@imkuldip/yalm-v1-my-journey-training-small-language-models-from-scratch-cd9a0964455e'
+  },
+  {
+    title: 'GhostTown 2026 CTF — Reverse Engineering',
+    slug: 'ghosttown-2026-ctf-reverse-engineering',
+    excerpt: 'Write-up on Reverse Engineering section of the GhostTown CTF of February 2026', 
+    date: 'Feb 09, 2026',
+    readTime: '6 min read',
+    tags: ['Reversing', 'IDA Pro', 'CyberSecurity', 'CTF'],
+    link: 'https://medium.com/@imkuldip/ghosttown-2026-ctf-reverse-engineering-af8f11271534'
+  },
+  {
+    title: 'GhostTown 2025 CTF — ProtoPrefs',
+    slug: 'ghosttown-ctf-sep25-protoprefs',
+    excerpt: 'Write-up on ProtoPrefs challenge from the GhostTown CTF of September 2025', 
+    date: 'Sep 22, 2025',
+    readTime: '3 min read',
+    tags: ['JavaScript', 'Prototype Polution', 'CyberSecurity', 'CTF'],
+    link: 'https://medium.com/@imkuldip/ghosttown-ctf-sep25-protoprefs-2a0f1a3da1be'
+  },
   {
     title: 'Mastering React Hooks',
     slug: 'mastering-react-hooks',
@@ -213,6 +246,58 @@ export const projects = [
     links: {
       visit: "https://kuldippatel.dev/",
       github: "https://github.com/kp7742/My-Portfolio",
+    }
+  },
+  {
+    title: "NSeal",
+    description: "A light weight, session-based secure communication protocol",
+    image: "https://placehold.co/600x400/000000/FFF?text=NSeal",
+    technologies: [
+      "Cryptography",
+      "Security",
+      "Protocol"
+    ],
+    links: {
+      github: "https://github.com/kp7742/NSeal",
+    }
+  },
+  {
+    title: "YALM Model",
+    description: "A family of an experimental small language models developed while exploring LLM architectures",
+    image: "https://placehold.co/600x400/000000/FFF?text=YALM",
+    technologies: [
+      "Pytorch",
+      "LLM",
+      "AI"
+    ],
+    links: {
+      github: "https://github.com/kp7742/yalm",
+    }
+  },
+  {
+    title: "GPT Trainer",
+    description: "Quick prototyping project for testing GPT variants",
+    image: "https://placehold.co/600x400/000000/FFF?text=GPT+Trainer",
+    technologies: [
+      "Pytorch",
+      "Python",
+      "GPT"
+    ],
+    links: {
+      github: "https://github.com/kp7742/gpt-trainer",
+    }
+  },
+  {
+    title: "PluginLoader",
+    description: "Tiny plugin system to dynamically load apk in Android",
+    image: "https://placehold.co/600x400/000000/FFF?text=PluginLoader",
+    technologies: [
+      "Java",
+      "Plugin",
+      "Android"
+    ],
+    links: {
+      github: "https://github.com/kp7742/PluginLoader",
     }
   },
   {
